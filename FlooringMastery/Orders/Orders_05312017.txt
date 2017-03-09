@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+21,Johezaphat,OH,6.25,Carpet,222,2.25,2.10,499.50,466.20,60.36,1026.06
+39,Fred,OH,6.25,Tile,98238,3.50,4.15,343833.00,407687.70,46970.04,798490.74
+42,Bezelbub,PA,6.75,Carpet,324,2.25,2.10,729.00,680.40,95.13,1504.53

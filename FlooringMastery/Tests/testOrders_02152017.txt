@@ -1,0 +1,5 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Wise,OH,6.25,Wood,100.00,5.15,4.75,515.00,475.00,61.88,1051.88
+2,Andrews,TX,8.25,Wood,24.3,1.25,1.25,30.38,30.38,5.01,65.77
+3,Beal,TX,8.25,Wood,200,1.25,1.25,250.00,250.00,41.25,541.25
+4,Chance,TX,8.25,Wood,30.9,1.25,1.25,38.63,38.63,6.37,83.63

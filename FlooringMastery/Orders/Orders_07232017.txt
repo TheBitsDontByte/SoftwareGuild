@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+31,Jayce,PA,6.75,Tile,843,3.50,4.15,2950.50,3498.45,435.30,6884.25

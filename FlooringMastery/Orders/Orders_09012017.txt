@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+7,Allison Andrews,MI,5.75,Wood,78,5.15,4.75,401.70,370.50,44.40,816.60

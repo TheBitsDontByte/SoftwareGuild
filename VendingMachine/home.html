@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vend-o-Tron</title>
+    <link href="css/bootstrap.css" rel="stylesheet"></link>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Orbitron');
+        
+        * {
+            color: whitesmoke;
+            font-family: "Orbitron";
+        }
+        
+        body {
+        
+            background-image: url('http://wallpaper-gallery.net/images/high-resolution-blue-wallpaper/high-resolution-blue-wallpaper-4.jpg');
+        }
+        
+        .items {
+            border-radius: 10px;
+            /*background-color: midnightblue;*/
+            background-size: cover;
+            background-color: darkblue;
+            border: 3px solid whitesmoke;
+            width: 28%;
+            height: 0;
+            padding-bottom: 25%;
+            padding-top: 5px;
+            margin: 2%;
+            margin-top: 35px;
+        }
+        
+        .items:hover {
+            border-color: orange;
+            color: orange;
+        }
+
+        .items:hover div, .items:hover span{
+            border-color: orange;
+            color: orange;
+        }
+        
+        .btn:hover {
+            color: whitesmoke;
+            background-color: darkblue;
+        }
+        
+        .item-name,
+        .item-price {
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        
+        .selected-item {
+            border-color: orange;
+            color: orange;
+        }
+        
+        .display-borders {
+            padding: 5px;
+            min-height: 40px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--SEPERATE EVERYTHING INTO GROUPS - HAVE GOOD NAMING FOR GROUPS-->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div id="vending-machine-banner">
+                    <h1>Vending Machine</h1>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <!--TWO COLUMNS, ONE OF 9, ONE OF 3 BUT NOT ACTUAL ROW HERE ????-->
+
+        <!--VENDING MACHINE STUFF DISPLAY-->
+        <div class="row">
+            <div class="col-md-8">
+
+                <div class="row" id="item-display">
+
+                </div>
+                <!--VENDING MACHINE BUTTONS / MENUS / ETC-->
+            </div>
+            <div class="col-md-4 text-center" style="border-left: 3px solid whitesmoke">
+                <div class="row">
+                    <h2>Total Money In</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h3 style="border: 2px solid whitesmoke;" id="current-money" class="display-borders"></h3>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1">
+                        <button class="btn btn-block btn-default" id="add-dollar-btn">
+                            Add Dollar
+                        </button>
+                    </div>
+                    <div class="col-md-5">
+                        <button class="btn btn-block btn-default" id="add-quarter-btn">
+                            Add Quarter
+                        </button>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1">
+                        <button class="btn btn-block btn-default" id="add-dime-btn">
+                            Add Dime
+                        </button>
+                    </div>
+                    <div class="col-md-5 ">
+                        <button class="btn btn-block btn-default" id="add-nickel-btn">
+                            Add Nickel
+                        </button>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="row">
+                    <h2>Messages</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1" id="display-message-box">
+                        <h3 style="border: 2px solid whitesmoke" id="display-message" class="display-borders">
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-3" style="padding-top: 8px">
+                        <h3>Item:</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 style="border: 2px solid whitesmoke" id="display-item-num" class="display-borders">
+
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <button class="btn btn-block btn-default" id="purchase-btn">
+                            Purchase
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Change</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 style="border: 2px solid whitesmoke; min-height: 70px;" class="display-borders" id="display-change"></h3>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-md-offset-3">
+                    <button class="btn btn-block btn-default" id="change-btn" onclick="makeChange()">
+                            Make Change
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--//Template for creating my stuff-->
+    <a id="item-template" class="hidden">
+        <div class="col-md-4 items">
+            <span class="item-number">3</span>
+            <div class="row text-center item-name">
+                Almond Joy
+            </div>
+            <br><br>
+            <div class="row text-center item-price">
+                $ 1.25
+            </div>
+            <br><br>
+            <div class="row text-center item-quantity">
+                Quantity Left: 10
+            </div>
+        </div>
+    </a>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+
+</html>

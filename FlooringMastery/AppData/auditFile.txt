@@ -1,0 +1,46 @@
+2017-02-24T11:47:25.909Switched to production
+2017-02-24T13:43:21.849: Order Added -- OrderID: 25 || Customer Name: Brock || Product: Wood || Total: 9965.86
+2017-02-24T13:43:44.690: Switched to training mode
+2017-02-24T13:43:53.809: Switched to production mode2017-02-24T14:05:43.732: Switched to training mode
+2017-02-24T14:05:49.432: Switched to production mode
+2017-02-24T14:10:43.434: Order Added -- OrderID: 26 || Customer Name: Feng || Product: Carpet || Total: 4287.32
+2017-02-24T14:11:00.449: Order Removed -- OrderID: 26 || Customer Name: Feng || Product: Carpet || Total: 4287.32
+2017-02-24T14:14:45.099: Switched to training mode
+2017-02-24T14:15:47.216: Switched to production mode
+2017-02-24T14:28:16.419: Switched to training mode
+2017-02-24T14:28:51.566: Switched to production mode
+2017-02-24T14:30:57.493: Switched to training mode
+2017-02-24T14:42:37.329: Switched to training mode
+2017-02-24T14:55:13.391: Order Added -- OrderID: 27 || Customer Name: butts || Date: 12/14/8888 || Product: Wood || Total: $9327999999990.67
+2017-02-24T14:56:42.908: Switched to training mode
+2017-02-24T14:58:08.469: Order Added -- OrderID: 28 || Customer Name: PP || Date: 12/14/8888 || Product: Tile || Total: $622.92
+2017-02-24T15:15:23.239: Order Added -- OrderID: 29 || Customer Name: John || Date: 01/01/2020 || Product: Carpet || Total: $97.52
+2017-02-24T15:34:40.723: Order Added -- OrderID: 30 || Customer Name: Joesph || Date: 05/31/2018 || Product: Carpet || Total: $106.80
+2017-02-24T15:39:36.506: Order Removed -- OrderID: 21 || Customer Name: Andrews || Date: 05/31/2017 || Product: Wood || Total: $241.93
+2017-02-24T16:27:07.031Order 30 Edited: 
+	Original -- Customer Name: Joesph || Date: 05/31/2018 || State: PA || Product: Carpet || Total: $106.80
+	  Edit   -- Customer Name: Joesph || Date: 05/30/2019 || State: PA || Product: Carpet || Total: $106.80
+2017-02-24T16:37:28.036Order 21 Edited: 
+	Original -- Customer Name: Johezaphat || Date: 05/31/2017 || State: PA || Product: Laminate || Total: $1327.49
+	  Edit   -- Customer Name: Johezaphat || Date: 05/31/2017 || State: OH || Product: Carpet || Total: $1026.06
+2017-02-24T16:52:41.185: Order Added -- OrderID: 31 || Customer Name: Jayce || Date: 07/23/2017 || State: PA || Product: Tile || Total: $6884.25
+2017-02-24T16:52:49.996: Switched to training mode
+2017-02-24T16:53:30.065: Switched to production mode
+2017-02-25T14:22:18.300: Order Added -- OrderID: 35 || Customer Name: adf || Date: 05/31/2018 || State: PA || Product: Carpet || Total: $106.80
+2017-02-25T14:22:29.926: Order Removed -- OrderID: 35 || Customer Name: adf || Date: 05/31/2018 || State: PA || Product: Carpet || Total: $106.80
+2017-02-25T21:06:44.986: Order Added -- OrderID: 36 || Customer Name: Joe || Date: 03/03/2017 || State: PA || Product: Carpet || Total: $3092.65
+2017-02-25T21:07:35.720: Order Added -- OrderID: 37 || Customer Name: /.sdf.sd.e2.3/,.,sd.,23,sd.,s3,3 || Date: 04/04/2017 || State: MI || Product: Laminate || Total: $130.28
+2017-02-25T21:08:37.288: Order Added -- OrderID: 38 || Customer Name: ,hey,hey,robsabitch || Date: 04/04/2017 || State: MI || Product: Laminate || Total: $130.28
+2017-02-25T21:09:07.562: Switched to training mode
+2017-02-26T13:43:21.974: Switched to training mode
+2017-02-26T13:50:39.187: Order Added -- OrderID: 39 || Customer Name: Fred || Date: 05/31/2017 || State: OH || Product: Tile || Total: $798490.74
+2017-02-26T13:51:01.955: Order Added -- OrderID: 40 || Customer Name: Jayce || Date: 05/31/2018 || State: PA || Product: Wood || Total: $8792.78
+2017-02-26T13:51:06.058: Switched to training mode
+2017-02-26T14:06:24.612: Order Added -- OrderID: 41 || Customer Name: Crowther, Jayce || Date: 05/31/2017 || State: PA || Product: Tile || Total: $1739.44
+2017-02-26T17:11:37.662: Order Added -- OrderID: 42 || Customer Name: Bezelbub || Date: 05/31/2017 || State: PA || Product: Carpet || Total: $1504.53
+2017-02-26T17:21:45.968: Order 7 Edited: 
+	Original -- Customer Name: Satan || Date: 05/31/2018 || State: PA || Product: Carpet || Total: $3092.65
+	  Edit   -- Customer Name: SatanSama || Date: 05/31/2018 || State: OH || Product: Laminate || Total: $2724.36
+2017-02-26T17:22:07.293: Order Removed -- OrderID: 41 || Customer Name: Crowther, Jayce || Date: 05/31/2017 || State: PA || Product: Tile || Total: $1739.44
+2017-02-26T17:37:52.311: Switched to training mode
+2017-02-26T17:40:27.541: Switched to training mode

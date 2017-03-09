@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+4,Jebudias,IN,6.00,Laminate,999,1.75,2.10,1748.25,2097.90,230.77,4076.92

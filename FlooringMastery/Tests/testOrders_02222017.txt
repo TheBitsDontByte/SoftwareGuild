@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Andrews,TX,8.25,Wood,24.3,1.25,1.25,30.38,30.38,5.01,65.77

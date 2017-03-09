@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+3,Frederick,PA,6.75,Wood,23,5.15,4.75,118.45,109.25,15.37,243.07
+20,Jones,OH,6.25,Tile,213,3.50,4.15,745.50,883.95,101.84,1731.29

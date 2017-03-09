@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop  
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+    
+          
+ 
+    <bean id="ordersProductionDao" class="com.sg.flooringmastery.dao.FlooringMasteryOrdersDaoFileProductionImpl">
+        <constructor-arg name="filePrefix" value="Tests/testOrders"/>
+        <constructor-arg name="fileHeader" value="OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total"/>
+    </bean>
+    
+    <bean id="ordersTrainingDao" class="com.sg.flooringmastery.dao.FlooringMasteryOrdersDaoFileTrainingImpl">
+        <constructor-arg name="filePrefix" value="Tests/testOrders"/>
+        <constructor-arg name="fileHeader" value="OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total"/>
+    </bean>
+    
+    <bean id="ordersProductionDaoSTUB" class="com.sg.flooringmastery.dao.FlooringMasteryOrdersDAOSTUB">
+        <constructor-arg name="filePrefix" value="Tests/testOrders"/>
+        <constructor-arg name="fileHeader" value="OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total"/>
+    </bean>
+    
+    <bean id="ordersTrainingDaoSTUB" class="com.sg.flooringmastery.dao.FlooringMasteryOrdersDAOSTUB">
+        <constructor-arg name="filePrefix" value="Tests/testOrders"/>
+        <constructor-arg name="fileHeader" value="OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total"/>
+    </bean>
+    
+    
+    <bean id="taxesDao" class="com.sg.flooringmastery.dao.FlooringMasteryTaxDaoFileImpl">
+        <constructor-arg name="TAX_FILE" value="Taxes.txt"/>
+    </bean>
+    
+    <bean id="productsDao" class="com.sg.flooringmastery.dao.FlooringMasteryProductDaoFileImpl">
+        <constructor-arg name="PRODUCT_FILE" value="Products.txt"/>
+    </bean>
+    
+    <bean id="uniqueIdDao" class="com.sg.flooringmastery.dao.FlooringMasteryIdDaoFileImpl">
+        <constructor-arg name="idFile" value="Tests/testUniqueId.txt"/>
+    </bean>
+    
+    <bean id="beanService" class="com.sg.flooringmastery.service.FlooringMasteryBeanSelectorServiceImpl"/>
+    
+    <bean id="service" class="com.sg.flooringmastery.service.FlooringMasteryServiceLayerImpl">
+        <!--Impl constructs order ==  ordersProductionDao, ordersTrainingDao,taxDao,productDao, idDao -->
+        <constructor-arg ref="ordersProductionDaoSTUB"/>
+        <constructor-arg ref="taxesDao"/>
+        <constructor-arg ref="productsDao"/>
+        <constructor-arg ref="uniqueIdDao"/>
+    </bean>
+    
+    
+    
+    
+    
+</beans>
