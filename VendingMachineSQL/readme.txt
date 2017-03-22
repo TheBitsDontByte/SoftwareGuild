@@ -1,6 +1,6 @@
 Vending Machine V.2
 
-Refactored to have a UserData DTO that passed all the various values back and forth so they are accessible in the model.
+Created the backend for a web application. Requirement was no JavaScript/jQuery so as to see how the apps would work without them. Overall, pretty straightforward, but the lack of dynamically updating data really gives the site a dated feel (reloads for every button click). 
 
-Replaced the in-memory implementation with one that uses MySQL. Impressed at how easily coding to an interface works !
+At this point, we've moved on from in memory / file storage and are using MySQL. Created the (fairly simple) table and connected it through SpringMVC and JDBC.
 
